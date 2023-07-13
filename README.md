@@ -6,6 +6,8 @@ This can be used if at your company someone stops any EC2 instances for any reas
 
 Here we will be creating an Cron job in EventBridge which runs every hour and triggers a Lambda function which checks for any stopped ec2 instances and starts them.
 
+### Our plan...
+![1](https://imgur.com/HaIhHkM.jpg)
 
 ### We first create a Lambda Function...
 ![1](https://i.imgur.com/egF94Bh.jpg)
